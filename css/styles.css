@@ -331,6 +331,18 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
+img {
+  display: none;
+}
+
 /* =============
     Typography
 ============= */
@@ -339,14 +351,53 @@ body {
   font-optical-sizing: auto;
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.pageTitle {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
+  color: #124559;
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+
+.contentSectionTitle {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.contentSectionSubtitle {
+  font-size: 1.375rem;
+  font-weight: 800;
 }
 
 /* =============
     Buttons
 ============= */
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.redButton {
+  background-color: #F25C54;
+  color: #FFFFFF;
+  font-size: 1.125rem;
+  font-weight: 800;
+  padding: 16px 40px;
+  border-radius: 8px;
+}
+
 /* =============
     Forms
 ============= */
@@ -373,6 +424,10 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  display: none;
+}
+
 /* =============
     Footer
 ============= */
