@@ -2,7 +2,10 @@
     Footer
 ============= */
 footer{
-    background-color: var(--black);
+    // background-color: var(--black);
+    background-image: url(../img/footer/footer.jpg);
+    background-size: cover;
+    background-position: center bottom;
     color: var(--white);
     text-align: center;
     padding-bottom: 32px;
@@ -29,6 +32,8 @@ footer{
     ul{
         li{
             a{
+                color: var(--white);
+                font-size: rem-calc(30);
 
             }
         }
