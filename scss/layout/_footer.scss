@@ -12,6 +12,10 @@ footer{
     justify-content: center;
     align-items: flex-end;
 
+    @include lg{
+        background-position: center;
+        height: 70vh;
+    }
     >div{
 
         padding-bottom: 32px;
@@ -31,6 +35,18 @@ footer{
 
             @include md{
                 width: 50vw;
+            }
+
+            @include lg{
+                width: 45vw; 
+            }
+
+            @include xl{
+                width: 40vw;
+            }
+
+            @include xxl{
+                width: 35vw;
             }
             
             >div{
