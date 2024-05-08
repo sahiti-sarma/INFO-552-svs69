@@ -39,10 +39,4 @@ ul{
     @include xl{
         display: grid;
         grid-template-columns: auto 1200px auto;
-        grid-template-areas: ". xl-content .";
-
-        .xl-grid-item{
-            grid-area: xl-content;
-        }
-    }
-}
+        grid-template-areas: ". xl-conte
