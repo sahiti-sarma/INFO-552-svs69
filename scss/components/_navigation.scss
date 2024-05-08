@@ -6,10 +6,19 @@ a{
 
 }
 
+.hide-menu{
+    display: none;
+
+    @include md{
+        display: block;
+    }
+}
+
 #main-nav{
     background-color: var(--blueDark);
     color: var(--white);
     padding: 16px;
+
 
     @include md{
         background-color: var(--white);
